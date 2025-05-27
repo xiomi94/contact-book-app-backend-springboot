@@ -1,7 +1,7 @@
 # Contact book backend
 
 I decided to complete this project for my first-year internship at the Canary Islands Institute of Technology, 
-as I've been asked to learn backend development for the first time. The topic I chose is a contact planner.
+as I've been asked to learn backend development for the first time. The topic I chose is a contact book.
 
 ## Built with
 
