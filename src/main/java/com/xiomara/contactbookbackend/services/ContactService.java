@@ -11,4 +11,6 @@ public interface ContactService {
   Contact createNew(Contact contact);
 
   void delete(int id);
+
+  List<Contact> searchContacts(String stringParaBuscar);
 }

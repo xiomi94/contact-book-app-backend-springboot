@@ -39,5 +39,12 @@ public class ContactController {
     return response;
   }
 
+  @GetMapping("/search")
+  public List<Contact> searchByName(
+          @RequestParam String searchTerm
+  ) {
+    return this.contactService.searchContacts(searchTerm);
+  }
+
 
 }

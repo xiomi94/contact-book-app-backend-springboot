@@ -31,4 +31,10 @@ public class ContactServiceImpl implements ContactService {
   public void delete(int id) {
     this.contactRepository.deleteById(id);
   }
+
+  @Override
+  public List<Contact> searchContacts(String searchTerm) {
+    return contactRepository.searchNameOrSurnameByString(searchTerm);
+  }
+
 }
